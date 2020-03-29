@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React,{useState} from 'react';
+import  Header from  './Header';
+import  Logon from  './pages/Logon/index';
+import './global.css';
+import Routes from './routes';
 
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes/>
   );
 }
+
+/*function App() {
+  //useState muda o estado, valor da variavél
+  // deve-se sempre declarar uma variavel que muda de estado setCount e a varivavel que muda valor
+  let [count,setCount] = useState(0);
+  // retorna um array [valor,função de atualização]
+
+  function increment(){
+    setCount(count++);
+    
+  }
+  return (
+    <div>
+    <Header>Contador: {count}</Header>
+    <button onClick = {increment}>incrementar</button>
+    </div>
+  );
+}*/
 
 export default App;

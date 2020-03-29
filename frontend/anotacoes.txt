@@ -1,0 +1,24 @@
+excluir todos os arquivos que serão deixados de usar:
+Readme
+Apps.css
+index.css
+logo.svg
+serviceWorker.js
+setupTests.js
+
+Apago as referencias aos arquivos excluidos nos arquivos que ficaram Apps.js e index.js
+
+Deletar em public o arquivo robot.txt
+Manifest.json
+As 2 logos do react native
+Excluir algumas tags dentro do arquivo index.html
+
+
+Parautilizar icones basta baixar npm install react-icons
+Depois para utilizar as rotas baixar npm install react-router-dom
+
+
+conectar frontend com backend:
+-navegar até a pasta pelo cmd (owerhsell) e startar o servidor com nom start
+-no frontend instalar com cliente HTTP. O cliente http é responsavel por fazer as chamadas das apis e obter a resposta.
+comando: npm install axios.
