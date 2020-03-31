@@ -22,3 +22,23 @@ conectar frontend com backend:
 -navegar até a pasta pelo cmd (owerhsell) e startar o servidor com nom start
 -no frontend instalar com cliente HTTP. O cliente http é responsavel por fazer as chamadas das apis e obter a resposta.
 comando: npm install axios.
+- No web colocar o botão de páginação pq não tem
+
+Aplicativo mobile
+-instalando o expo: npm install -g expo-cli
+-expo -h para saber se instalou corretamente. Se der erro de politica de segurança, mudar no pwershell para habilitado. 
+Comando: Set-ExecutionPolicy Unrestricted 
+-criar pasta mobile dentro do projeto: expo init mobile, escolher o teplate blank
+- entrar na pasta via power shell cd pasta 
+- entrar no visual studio code comando code
+- executar o mobile no celular : comando: yarn  start ou expo start no power shell
+
+-
+
+estilização propria por elemento, não existe herança 
+- instalar o pacote expo install expo-constants
+- enviar email pacote: expo install expo-mail-composer
+- instalr o axio pra usar a pi, http
+
+-pegar o ip localmente se estiver rodando pelo celular, pegar o ip da máquina pelo cmd
+-npm install intl - instalar as funcionalidade de formatação que só existem para o ios
